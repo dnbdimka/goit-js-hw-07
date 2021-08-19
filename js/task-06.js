@@ -10,11 +10,9 @@ function onBlur(e) {
     console.log(INPUT_VALUE);
 
     if (value.length === INPUT_VALUE) {
-        inputRef.classList.remove('invalid');
         inputRef.classList.add('valid');
     } else {
         inputRef.classList.add('invalid');
-        inputRef.classList.remove('valid');
     }  
 }
 function onFocus() {
