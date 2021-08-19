@@ -31,3 +31,18 @@ li {
 img {
   width: 100%;
 }
+div.add {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(23, 23, 23);
+}
+#controls {
+  padding-left: 30px;
+}
+#boxes {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
